@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>네이버 서치어드바이저 소유확인용 페이지</title>
-    <!-- 네이버 서치어드바이저 메타태그: 성개님의 고유 코드가 여기에 들어갑니다 -->
-    <meta name="naver-site-verification" content="0497972c5fa639416ece4c5342753ddd4c0b1455" />
+<meta name="naver-site-verification" content="0497972c5fa639416ece4c5342753ddd4c0b1455" />
+<meta charset="UTF-8">
+<title>참 한우 직판장</title>
+
+<style>
+body{
+  margin:0;
+  font-family: "Malgun Gothic", Arial, sans-serif;
+  background:#f2f2f2;
+}
+.container{
+  max-width:1000px;
+  margin:auto;
+  background:white;
+  padding:20px;
+}
+h1,h2{ text-align:center; }
+.section{ margin:40px 0; }
+
+.photo-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.photo-grid img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+.info{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
+}
+.card{
+  background:#fafafa;
+  padding:15px;
+  border-radius:12px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  text-align:center;
+}
+</style>
 </head>
+
 <body>
-    <h1>네이버 소유 확인 페이지입니다.</h1>
-    <p>이 페이지는 hsg019339.github.io 주소의 소유권을 확인하기 위해 사용됩니다.</p>
-    <p>실제 참 한우직판장 웹사이트는 <a href="/chamhanwoo/">여기를 클릭</a>해 주세요.</p>
+
+<div class="container">
+
+<h1>참 한우 직판장</h1>
+<p style="text-align:center;">서울 영등포구 가마산로 409 · 한우 전문</p>
+
+<div class="section">
+  <h2>매장 & 한우 사진</h2>
+  <div class="photo-grid">
+    <img src="images/1.JPG">
+    <img src="images/2.JPG">
+    <img src="images/3.JPG">
+  </div>
+</div>
+
+<div class="section info">
+ <div class="card">📍 <a href="https://map.naver.com/v5/search/서울%20영등포구%20가마산로%20409" target="_blank">서울 영등포구 가마산로 409</a></div>
+<div class="card">📞 <a href="tel:01032889999">010-3288-9999</a></div>
+  <div class="card">⏰ 화·금·토 영업</div>
+</div>
+
+</div>
+
 </body>
 </html>
